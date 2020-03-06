@@ -18,10 +18,10 @@ public class Udtwitter {
 
 		// Inicialización
 		ConfigurationBuilder cb = new ConfigurationBuilder();
-		cb.setDebugEnabled(true).setOAuthConsumerKey("GVARYRM4rJcBgXx54u7Y11lCO")
-				.setOAuthConsumerSecret("n2KT1pgMIWlPCmhl0maKRCo6EQL6G6l2rxKoh611NAFhbzVhMW")
-				.setOAuthAccessToken("987880050-VnX6WOQ47amX8JZjsWCbse8nF0EaCM3ODE9E3I9k")
-				.setOAuthAccessTokenSecret("TaCDCvegqmL454aRKXL6xwvSGvy8Gi4xtqz3C5DHXR8Li");
+		cb.setDebugEnabled(true).setOAuthConsumerKey("")
+				.setOAuthConsumerSecret("")
+				.setOAuthAccessToken("")
+				.setOAuthAccessTokenSecret("");
 		TwitterFactory tf = new TwitterFactory(cb.build());
 		Twitter twitter = tf.getInstance();
 
